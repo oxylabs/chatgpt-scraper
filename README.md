@@ -43,13 +43,13 @@ Find code examples for other programming languages [**here**](https://github.com
 
 | Parameter          | Description                                        | Default Value |
 |--------------------|----------------------------------------------------|---------------|
-| source (mandatory) | Sets the scraper.                                  | chatgpt       |
-| prompt (mandatory) | The input prompt to submit (max 4000 characters).  | –             |
-| search             | Trigger ChatGPT web search for the prompt.         | true          |
-| geo_location       | Specify a country to send the prompt from.         | –             |
-| render             | JavaScript rendering is enforced by default for chatgpt. | –     |
-| parse              | Return parsed structured data.                     | true          |
-| callback_url       | URL for asynchronous callbacks.                    | –             |
+| `source` (mandatory) | Sets the scraper.                                  | `chatgpt`       |
+| `prompt` (mandatory) | The input prompt to submit (max 4000 characters).  | –             |
+| `search`             | Trigger ChatGPT web search for the prompt.         | `true`          |
+| `geo_location`       | Specify a country to send the prompt from.         | –             |
+| `render`             | JavaScript rendering is enforced by default for `chatgpt`. | –     |
+| `parse`              | Return parsed structured data.                     | `true`          |
+| `callback_url`       | URL for asynchronous callbacks.                    | –             |
 
 ---
 ### Output samples
@@ -98,23 +98,23 @@ This is the detailed list of each ChatGPT element API parses, including descript
 
 | Key Name                 | Description                                                   | Type      |
 |---------------------------|---------------------------------------------------------------|-----------|
-| url                       | The URL of ChatGPT conversation.                              | string    |
-| page                      | Page number.                                                 | integer   |
-| content                   | An object containing the parsed ChatGPT response data.        | object    |
-| content.prompt            | Original prompt submitted to ChatGPT.                         | string    |
-| content.llm_model         | ChatGPT model used (e.g., "gpt-4-o", "gpt-3.5-turbo", etc.).  | string    |
-| content.markdown_json     | Parsed response in JSON markdown format.                      | array     |
-| content.markdown_text     | Parsed response in plain markdown text.                       | string    |
-| content.response_text     | Complete response text from ChatGPT.                          | string    |
-| content.citations         | List of citation links with URL and text.                     | array     |
-| content.links             | List of external links referenced in the response.            | array     |
-| content.parse_status_code | Status code of the parsing operation.                         | integer   |
-| created_at                | Timestamp when the scraping job was created.                  | timestamp |
-| updated_at                | Timestamp when the scraping job was finished.                 | timestamp |
-| job_id                    | ID of the job associated with the scraping job.               | string    |
-| geo_location              | Proxy location from which the prompt was submitted.           | string    |
-| status_code               | Status code of the scraping job. [See the full status code list](link). | integer   |
-| parser_type               | Type of the parser used for breaking down the HTML content.   | string    |
+| `url`                       | The URL of ChatGPT conversation.                              | string    |
+| `page`                      | Page number.                                                 | integer   |
+| `content`                   | An object containing the parsed ChatGPT response data.        | object    |
+| `content.prompt`            | Original prompt submitted to ChatGPT.                         | string    |
+| `content.llm_model`         | ChatGPT model used (e.g., "gpt-4-o", "gpt-3.5-turbo", etc.).  | string    |
+| `content.markdown_json`     | Parsed response in JSON markdown format.                      | array     |
+| `content.markdown_text`     | Parsed response in plain markdown text.                       | string    |
+| `content.response_text`     | Complete response text from ChatGPT.                          | string    |
+| `content.citations`         | List of citation links with URL and text.                     | array     |
+| `content.links`             | List of external links referenced in the response.            | array     |
+| `content.parse_status_code` | Status code of the parsing operation.                         | integer   |
+| `created_at`                | Timestamp when the scraping job was created.                  | timestamp |
+| `updated_at`                | Timestamp when the scraping job was finished.                 | timestamp |
+| `job_id`                    | ID of the job associated with the scraping job.               | string    |
+| `geo_location`              | Proxy location from which the prompt was submitted.           | string    |
+| `status_code`               | Status code of the scraping job. See the full [status code list](https://developers.oxylabs.io/scraping-solutions/web-scraper-api/response-codes). | integer   |
+| `parser_type`               | Type of the parser used for breaking down the HTML content.   | string    |
 
 
 ## Practical Use Cases
@@ -144,9 +144,9 @@ The maximum prompt length supported by the ChatGPT Scraper is 4,000 symbols. If 
 
 ## Learn more
 
-For a deeper dive into available parameters, advanced integrations, and additional examples, check out the [ChatGPT Scraper documentation](link).
+For a deeper dive into available parameters, advanced integrations, and additional examples, check out the [ChatGPT Scraper documentation](https://developers.oxylabs.io/scraping-solutions/web-scraper-api/targets/chatgpt).
 
 
 ## Contact us
 
-If you have questions or need support, reach out to us at **hello@oxylabs.io** or through our [live chat](link).
+If you have questions or need support, reach out to us at **hello@oxylabs.io** or through our [live chat](https://oxylabs.drift.click/oxybot).
