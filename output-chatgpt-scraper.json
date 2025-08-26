@@ -1,0 +1,1407 @@
+{
+    "results": [
+        {
+            "content": {
+                "prompt": "best supplements for better sleep",
+                "llm_model": "gpt-4o",
+                "markdown_json": [
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "raw": "          Improving sleep through supplements can be helpful, but it’s always good to pair them with healthy sleep habits. Here are some of the best supplements that are commonly used to promote better sleep:",
+                        "type": "block_code",
+                        "style": "indent"
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "1. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "Melatonin",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": A hormone naturally produced by the body to regulate sleep-wake cycles.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Melatonin supplements can help if you're dealing with sleep disruptions, like jet lag or shift work. It signals your body that it's time to sleep.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Generally, 0.5 to 3 mg about 30–60 minutes before bed is effective.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "2. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "Magnesium",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": An essential mineral involved in hundreds of processes in the body, including muscle function and relaxation.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Magnesium can help promote relaxation and reduce stress, which can make it easier to fall asleep.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Around 200–400 mg per day. Magnesium glycinate is a highly absorbable form, and it’s gentle on the stomach.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "3. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "L-Theanine",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": An amino acid found in tea leaves, particularly green tea.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": L-Theanine promotes relaxation and can reduce anxiety, which may help you unwind and improve sleep quality.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 100–200 mg, about 30 minutes before bed.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "4. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "Valerian Root",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": A herbal supplement that’s been used for centuries as a natural remedy for sleep and anxiety.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Valerian root may increase levels of GABA (a neurotransmitter that has calming effects) in the brain, helping to promote sleep.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 300–600 mg 30 minutes to 2 hours before bed.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "5. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "CBD (Cannabidiol)",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": A non-psychoactive compound derived from hemp plants.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": CBD may reduce anxiety and stress, promote relaxation, and support overall sleep quality. It does not cause a \"high.\"",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Typically, 25–50 mg of CBD oil or capsules is a good starting point.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "6. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "GABA (Gamma-Aminobutyric Acid)",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": A neurotransmitter that plays a key role in inhibiting neural activity and promoting relaxation.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": GABA supplements may support a calm and relaxed state, making it easier to fall asleep.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 100–500 mg, about 30–60 minutes before bed.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "7. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "Chamomile",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": A well-known herbal remedy, usually consumed as a tea, but also available in supplement form.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Chamomile has mild sedative properties that can help calm the mind and body.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 200–400 mg, typically taken before bed.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "8. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "5-HTP (5-Hydroxytryptophan)",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": A precursor to serotonin, a neurotransmitter involved in mood regulation and sleep.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 5-HTP can help regulate sleep patterns and improve mood, as serotonin is converted to melatonin in the brain.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 50–100 mg, taken before bed.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "9. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "Ashwagandha",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": An adaptogenic herb commonly used in Ayurvedic medicine.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Ashwagandha helps to reduce stress, anxiety, and cortisol levels, which may improve sleep quality.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 300–600 mg, typically taken in the evening.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "10. ",
+                                "type": "text"
+                            },
+                            {
+                                "type": "strong",
+                                "children": [
+                                    {
+                                        "raw": "Tryptophan",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "What it is",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": An amino acid found in foods like turkey and dairy, which is a precursor to serotonin and melatonin.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "How it helps",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Tryptophan supplementation may help boost serotonin and melatonin production, promoting better sleep.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Dosage",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": 500–1,000 mg about 30–60 minutes before bed.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "thematic_break"
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "heading",
+                        "attrs": {
+                            "level": 3
+                        },
+                        "style": "atx",
+                        "children": [
+                            {
+                                "raw": "Tips:",
+                                "type": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    },
+                    {
+                        "type": "list",
+                        "attrs": {
+                            "depth": 0,
+                            "ordered": false
+                        },
+                        "tight": true,
+                        "bullet": "*",
+                        "children": [
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Consistency",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Supplements can work better with regular use, so aim for consistent use for a few weeks to gauge their effectiveness.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Timing",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": The timing of when you take these supplements is key. For instance, melatonin is best taken 30–60 minutes before sleep, while magnesium is effective if taken a bit earlier in the evening.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "list_item",
+                                "children": [
+                                    {
+                                        "type": "block_text",
+                                        "children": [
+                                            {
+                                                "type": "strong",
+                                                "children": [
+                                                    {
+                                                        "raw": "Lifestyle Factors",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "raw": ": Supplements are not a replacement for good sleep hygiene (e.g., a cool, dark room, no screens before bed, etc.), but they can be a helpful addition.",
+                                                "type": "text"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "raw": "Do you have a particular sleep issue you're trying to address (like falling asleep, staying asleep, or sleep quality)? That might help narrow down which supplement is best for you!",
+                                "type": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "blank_line"
+                    }
+                ],
+                "markdown_text": "\n              Improving sleep through supplements can be helpful, but it’s always good to pair them with healthy sleep habits. Here are some of the best supplements that are commonly used to promote better sleep:\n\n### 1. **Melatonin**\n\n* **What it is**: A hormone naturally produced by the body to regulate sleep-wake cycles.\n* **How it helps**: Melatonin supplements can help if you're dealing with sleep disruptions, like jet lag or shift work. It signals your body that it's time to sleep.\n* **Dosage**: Generally, 0.5 to 3 mg about 30–60 minutes before bed is effective.\n\n### 2. **Magnesium**\n\n* **What it is**: An essential mineral involved in hundreds of processes in the body, including muscle function and relaxation.\n* **How it helps**: Magnesium can help promote relaxation and reduce stress, which can make it easier to fall asleep.\n* **Dosage**: Around 200–400 mg per day. Magnesium glycinate is a highly absorbable form, and it’s gentle on the stomach.\n\n### 3. **L-Theanine**\n\n* **What it is**: An amino acid found in tea leaves, particularly green tea.\n* **How it helps**: L-Theanine promotes relaxation and can reduce anxiety, which may help you unwind and improve sleep quality.\n* **Dosage**: 100–200 mg, about 30 minutes before bed.\n\n### 4. **Valerian Root**\n\n* **What it is**: A herbal supplement that’s been used for centuries as a natural remedy for sleep and anxiety.\n* **How it helps**: Valerian root may increase levels of GABA (a neurotransmitter that has calming effects) in the brain, helping to promote sleep.\n* **Dosage**: 300–600 mg 30 minutes to 2 hours before bed.\n\n### 5. **CBD (Cannabidiol)**\n\n* **What it is**: A non-psychoactive compound derived from hemp plants.\n* **How it helps**: CBD may reduce anxiety and stress, promote relaxation, and support overall sleep quality. It does not cause a \"high.\"\n* **Dosage**: Typically, 25–50 mg of CBD oil or capsules is a good starting point.\n\n### 6. **GABA (Gamma-Aminobutyric Acid)**\n\n* **What it is**: A neurotransmitter that plays a key role in inhibiting neural activity and promoting relaxation.\n* **How it helps**: GABA supplements may support a calm and relaxed state, making it easier to fall asleep.\n* **Dosage**: 100–500 mg, about 30–60 minutes before bed.\n\n### 7. **Chamomile**\n\n* **What it is**: A well-known herbal remedy, usually consumed as a tea, but also available in supplement form.\n* **How it helps**: Chamomile has mild sedative properties that can help calm the mind and body.\n* **Dosage**: 200–400 mg, typically taken before bed.\n\n### 8. **5-HTP (5-Hydroxytryptophan)**\n\n* **What it is**: A precursor to serotonin, a neurotransmitter involved in mood regulation and sleep.\n* **How it helps**: 5-HTP can help regulate sleep patterns and improve mood, as serotonin is converted to melatonin in the brain.\n* **Dosage**: 50–100 mg, taken before bed.\n\n### 9. **Ashwagandha**\n\n* **What it is**: An adaptogenic herb commonly used in Ayurvedic medicine.\n* **How it helps**: Ashwagandha helps to reduce stress, anxiety, and cortisol levels, which may improve sleep quality.\n* **Dosage**: 300–600 mg, typically taken in the evening.\n\n### 10. **Tryptophan**\n\n* **What it is**: An amino acid found in foods like turkey and dairy, which is a precursor to serotonin and melatonin.\n* **How it helps**: Tryptophan supplementation may help boost serotonin and melatonin production, promoting better sleep.\n* **Dosage**: 500–1,000 mg about 30–60 minutes before bed.\n\n---\n\n### Tips:\n\n* **Consistency**: Supplements can work better with regular use, so aim for consistent use for a few weeks to gauge their effectiveness.\n* **Timing**: The timing of when you take these supplements is key. For instance, melatonin is best taken 30–60 minutes before sleep, while magnesium is effective if taken a bit earlier in the evening.\n* **Lifestyle Factors**: Supplements are not a replacement for good sleep hygiene (e.g., a cool, dark room, no screens before bed, etc.), but they can be a helpful addition.\n\nDo you have a particular sleep issue you're trying to address (like falling asleep, staying asleep, or sleep quality)? That might help narrow down which supplement is best for you!\n\n              ",
+                "response_text": "\n          Improving sleep through supplements can be helpful, but it’s always good to pair them with healthy sleep habits. Here are some of the best supplements that are commonly used to promote better sleep:\n\n1. Melatonin\n\n\nWhat it is: A hormone naturally produced by the body to regulate sleep-wake cycles.\n\nHow it helps: Melatonin supplements can help if you're dealing with sleep disruptions, like jet lag or shift work. It signals your body that it's time to sleep.\n\nDosage: Generally, 0.5 to 3 mg about 30–60 minutes before bed is effective.\n\n\n\n2. Magnesium\n\n\nWhat it is: An essential mineral involved in hundreds of processes in the body, including muscle function and relaxation.\n\nHow it helps: Magnesium can help promote relaxation and reduce stress, which can make it easier to fall asleep.\n\nDosage: Around 200–400 mg per day. Magnesium glycinate is a highly absorbable form, and it’s gentle on the stomach.\n\n\n\n3. L-Theanine\n\n\nWhat it is: An amino acid found in tea leaves, particularly green tea.\n\nHow it helps: L-Theanine promotes relaxation and can reduce anxiety, which may help you unwind and improve sleep quality.\n\nDosage: 100–200 mg, about 30 minutes before bed.\n\n\n\n4. Valerian Root\n\n\nWhat it is: A herbal supplement that’s been used for centuries as a natural remedy for sleep and anxiety.\n\nHow it helps: Valerian root may increase levels of GABA (a neurotransmitter that has calming effects) in the brain, helping to promote sleep.\n\nDosage: 300–600 mg 30 minutes to 2 hours before bed.\n\n\n\n5. CBD (Cannabidiol)\n\n\nWhat it is: A non-psychoactive compound derived from hemp plants.\n\nHow it helps: CBD may reduce anxiety and stress, promote relaxation, and support overall sleep quality. It does not cause a \"high.\"\n\nDosage: Typically, 25–50 mg of CBD oil or capsules is a good starting point.\n\n\n\n6. GABA (Gamma-Aminobutyric Acid)\n\n\nWhat it is: A neurotransmitter that plays a key role in inhibiting neural activity and promoting relaxation.\n\nHow it helps: GABA supplements may support a calm and relaxed state, making it easier to fall asleep.\n\nDosage: 100–500 mg, about 30–60 minutes before bed.\n\n\n\n7. Chamomile\n\n\nWhat it is: A well-known herbal remedy, usually consumed as a tea, but also available in supplement form.\n\nHow it helps: Chamomile has mild sedative properties that can help calm the mind and body.\n\nDosage: 200–400 mg, typically taken before bed.\n\n\n\n8. 5-HTP (5-Hydroxytryptophan)\n\n\nWhat it is: A precursor to serotonin, a neurotransmitter involved in mood regulation and sleep.\n\nHow it helps: 5-HTP can help regulate sleep patterns and improve mood, as serotonin is converted to melatonin in the brain.\n\nDosage: 50–100 mg, taken before bed.\n\n\n\n9. Ashwagandha\n\n\nWhat it is: An adaptogenic herb commonly used in Ayurvedic medicine.\n\nHow it helps: Ashwagandha helps to reduce stress, anxiety, and cortisol levels, which may improve sleep quality.\n\nDosage: 300–600 mg, typically taken in the evening.\n\n\n\n10. Tryptophan\n\n\nWhat it is: An amino acid found in foods like turkey and dairy, which is a precursor to serotonin and melatonin.\n\nHow it helps: Tryptophan supplementation may help boost serotonin and melatonin production, promoting better sleep.\n\nDosage: 500–1,000 mg about 30–60 minutes before bed.\n\n\n\n\n\n\nTips:\n\n\nConsistency: Supplements can work better with regular use, so aim for consistent use for a few weeks to gauge their effectiveness.\n\nTiming: The timing of when you take these supplements is key. For instance, melatonin is best taken 30–60 minutes before sleep, while magnesium is effective if taken a bit earlier in the evening.\n\nLifestyle Factors: Supplements are not a replacement for good sleep hygiene (e.g., a cool, dark room, no screens before bed, etc.), but they can be a helpful addition.\n\n\n\nDo you have a particular sleep issue you're trying to address (like falling asleep, staying asleep, or sleep quality)? That might help narrow down which supplement is best for you!\n\n\n",
+                "parse_status_code": 12000
+            },
+            "created_at": "2025-07-21 09:44:41",
+            "updated_at": "2025-07-21 09:45:17",
+            "page": 1,
+            "url": "https://chatgpt.com/?hints=search",
+            "job_id": "7352996936896485377",
+            "is_render_forced": false,
+            "status_code": 200,
+            "parser_type": "chatgpt",
+            "parser_preset": null,
+            "_request": {
+                "cookies": [],
+                "headers": {
+                    "Accept": "*/*",
+                    "Referer": "https://chat.openai.com/",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+                    "Sec-Fetch-Dest": "empty",
+                    "Sec-Fetch-Mode": "cors",
+                    "Sec-Fetch-Site": "cross-site",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Accept-Language": "en-US,en;q=0.8"
+                }
+            },
+            "_response": {
+                "cookies": [
+                    {
+                        "key": "__cf_bm",
+                        "path": "/",
+                        "value": "8p_bO1S1FHojsABBQGDlZGjEV71zyZHR7MgnBeuYwtY-1753091085-1.0.1.1-V5pHHjoVcrJgK0z32boibyZVJhaoJixNqPPgDjCLQZx3XN8c7QPiZ7WtOHIjKxCuL7ikMp9gwclU.1MOAM_2XRf02EJt0HqyBZEGPSfdGZg",
+                        "domain": ".chatgpt.com",
+                        "secure": true,
+                        "comment": "",
+                        "expires": 1753092885,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "_cfuvid",
+                        "path": "/",
+                        "value": "pBe2gTUFEhqINJ64L9TjtoasbchypLHIoHJyu5QbGKU-1753091085801-0.0.1.1-604800000",
+                        "domain": ".chatgpt.com",
+                        "secure": true,
+                        "comment": "",
+                        "expires": -1,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "__Host-next-auth.csrf-token",
+                        "path": "/",
+                        "value": "b5d09ebb69a56f89056c5b85efe11830ba5ea0d63930b9a2521856b991ccfb21%7C9429a6a1e6e6f066d0ef9f5598c20cd44d944137415f21868cdf3a3d313e61fb",
+                        "domain": "chatgpt.com",
+                        "secure": true,
+                        "comment": "",
+                        "expires": -1,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "__Secure-next-auth.callback-url",
+                        "path": "/",
+                        "value": "https%3A%2F%2Fchatgpt.com",
+                        "domain": "chatgpt.com",
+                        "secure": true,
+                        "comment": "",
+                        "expires": -1,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "oai-did",
+                        "path": "/",
+                        "value": "8872fb51-5150-4124-94cc-c2b2c873d246",
+                        "domain": ".chatgpt.com",
+                        "secure": false,
+                        "comment": "",
+                        "expires": 1784195085,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "__cflb",
+                        "path": "/",
+                        "value": "0H28vzvP5FJafnkHxihEjGoKqQYKLzgWn6SrwLTizhZ",
+                        "domain": "chatgpt.com",
+                        "secure": true,
+                        "comment": "",
+                        "expires": 1753094685,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "cf_clearance",
+                        "path": "/",
+                        "value": "xuEaBnXwdEzDr3meJ4DVRoNa5ivEhPDp45igBtQPBGk-1753091089-1.2.1.1-oRl.I4.TRZvshWUEp8WB9eefELVoQ3mDqvWgOr0ygQi3OAH1Q9IlBF4SmCIMkHOFaXDnM6PqGgkMyEPXgVFmbX0DA9PIkboFDM8RTNn4J_71ZQh7Myt_6uI5XvW50Zw6.oTpur3dvssvFYybrJ91XIXLAR_Gp100upEez.7tUJ7ZHsD_lXyFU_f5FhWM.Ge_6t21dYPF5.YcsB8A7l.ZQHZ6AweZrAobTg.jmx77.VE",
+                        "domain": ".chatgpt.com",
+                        "secure": true,
+                        "comment": "",
+                        "expires": 1784627089,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "_dd_s",
+                        "path": "/",
+                        "value": "rum=0&expire=1753091989776&logs=1&id=85811739-0629-4bed-8737-dc9445dc71e1&created=1753091089776",
+                        "domain": "chatgpt.com",
+                        "secure": false,
+                        "comment": "",
+                        "expires": 1753091989,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    },
+                    {
+                        "key": "oai-sc",
+                        "path": "/",
+                        "value": "0gAAAAABofgwSO7ucm3ZwfjJxTYiQqdti8ySUpz67OKqDqGb7eNdKXZk5WkujZyDg_NbbqApn3uF9cTJsTB3m3VLscXV3lnQ2tzUy1gZTmxmreH7-SxYtUhu3p7LDvNrnM6jshusJHSY-3nl_EIbSyzpg-kxJMmhSOc2DhrI89B5D699Ub__hQ5ww_uv0JL702tfYUUmx5kfOYIYE9plbFHYELirLNRm0_9VRDEzuk1UnuQJRPG6VjSs",
+                        "domain": ".chatgpt.com",
+                        "secure": true,
+                        "comment": "",
+                        "expires": 1784627090,
+                        "max-age": "",
+                        "version": "",
+                        "httponly": "",
+                        "samesite": ""
+                    }
+                ],
+                "headers": {
+                    "date": "Mon, 21 Jul 2025 09:44:45 GMT",
+                    "link": "<https://cdn.oaistatic.com/assets/root-gb2r8c6x.css>; rel=preload; as=style, <https://cdn.oaistatic.com/assets/conversation-small-k592qa8k.css>; rel=preload; as=style, <https://cdn.oaistatic.com/assets/iel47fc7grtlil6a.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/juy90og0wtbp77qa.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/ggkcjsw9vksljdkv.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/m95fj1rn1mzao4sq.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/kr05utw3008eg945.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/iqfr5i09hbhccmuh.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/ovm0ybgo1syx3f0p.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/moy4mvglnalfrz8q.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/ghw6xt5f1sk79ysd.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/mi6f694cnocn4dti.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/i3hpxg6e4b5a8als.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/f74pg4kr6zomyhee.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/cstszi108kecrn0g.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/gk89tpvmawimrwuu.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/h9h8cg16cegnz3eg.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/fx2veoq58hii55a2.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/bjoz78q9hyc7vmqq.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/i77ly04l6zopmhcd.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/j0lff2ng05zbgs7q.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/pfit7pq9kxfsrq6e.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/f75rbclk3h4jbj57.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/cyi8lup1ra5lipwu.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/flzh3nddyjgqbqe1.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/pc2givv05uuq8g6l.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/kpwvtz91dbad0va6.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/4jrxuiu87ry95xka.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/nrb3o16z9jokvloq.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/o0whyuqzq13y0i9n.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/h3gfcgsgetn4821r.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/ljnobu2haq5a6djh.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/nvfpw35mzunli75l.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/ngweha7spcb6a8xk.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/mv381zt3ezq17s3t.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/kqp43verg3d5fj5u.js>; rel=preload; as=script; crossorigin, <https://cdn.oaistatic.com/assets/cmlgyrhs6cwm661e.js>; rel=preload; as=script; crossorigin",
+                    "cf-ray": "9629c2f56f6674c0-MIA",
+                    "server": "cloudflare",
+                    "report-to": "{\"group\":\"chatgpt-csp-new\", \"max_age\":10886400, \"endpoints\":[{\"url\":\"https://browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub1f79f8ac903a5872ae5f53026d20a77c&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=version%3Achatgpt-csp-new\"}]}",
+                    "content-type": "text/html; charset=utf-8",
+                    "x-robots-tag": "nofollow",
+                    "x-firefox-spdy": "h2",
+                    "cf-cache-status": "DYNAMIC",
+                    "referrer-policy": "strict-origin-when-cross-origin",
+                    "content-encoding": "br",
+                    "x-content-type-options": "nosniff",
+                    "content-security-policy": "default-src 'self'; script-src 'nonce-ef96b386-b45a-45ba-a589-4f4eb45ef5ce' 'self' 'wasm-unsafe-eval' chatgpt.com/ces https://*.chatgpt.com https://*.chatgpt.com/ https://*.js.stripe.com https://*.oaistatic.com https://chat.openai.com https://chatgpt.com https://chatgpt.com/ https://chatgpt.com/backend-anon https://chatgpt.com/backend-api https://chatgpt.com/backend/se https://chatgpt.com/public-api https://chatgpt.com/voice https://js.stripe.com https://oaistatic.com https://realtime.chatgpt.com https://snc.apps.openai.com wss://*.chatgpt.com wss://*.chatgpt.com/; script-src-elem 'nonce-ef96b386-b45a-45ba-a589-4f4eb45ef5ce' 'self' 'sha256-eMuh8xiwcX72rRYNAGENurQBAcH7kLlAUQcoOri3BIo=' auth0.openai.com blob: challenges.cloudflare.com chatgpt.com/ces https://*.chatgpt.com https://*.chatgpt.com/ https://*.js.stripe.com https://*.oaistatic.com https://apis.google.com https://chat.openai.com https://chatgpt.com https://chatgpt.com/ https://chatgpt.com/backend-anon https://chatgpt.com/backend-api https://chatgpt.com/backend/se https://chatgpt.com/public-api https://chatgpt.com/voice https://connect.facebook.net https://docs.google.com https://js.live.net/v7.2/OneDrive.js https://js.stripe.com https://oaistatic.com https://pixel-config.reddit.com https://realtime.chatgpt.com https://snc.apps.openai.com https://www-onepick-opensocial.googleusercontent.com https://www.redditstatic.com wss://*.chatgpt.com wss://*.chatgpt.com/; img-src 'self' * blob: data: https: https://docs.google.com https://drive-thirdparty.googleusercontent.com https://ssl.gstatic.com; style-src 'self' 'unsafe-inline' blob: chatgpt.com/ces https://*.chatgpt.com https://*.chatgpt.com/ https://*.oaistatic.com https://chat.openai.com https://chatgpt.com https://chatgpt.com/ https://chatgpt.com/backend-anon https://chatgpt.com/backend-api https://chatgpt.com/backend/se https://chatgpt.com/public-api https://chatgpt.com/voice https://oaistatic.com https://realtime.chatgpt.com https://snc.apps.openai.com wss://*.chatgpt.com wss://*.chatgpt.com/; font-src 'self' data: https://*.oaistatic.com https://cdn.openai.com https://fonts.gstatic.com; connect-src 'self' *.blob.core.windows.net *.oaiusercontent.com api.mapbox.com browser-intake-datadoghq.com chatgpt.com/ces events.mapbox.com https://*.chatgpt.com https://*.chatgpt.com/ https://*.oaistatic.com https://api.atlassian.com https://api.onedrive.com https://api.stripe.com https://chat.openai.com https://chatgpt.com https://chatgpt.com/ https://chatgpt.com/backend-anon https://chatgpt.com/backend-api https://chatgpt.com/backend/se https://chatgpt.com/public-api https://chatgpt.com/voice https://content.googleapis.com https://docs.google.com https://events.statsigapi.net https://featuregates.org https://graph.microsoft.com https://integrations.livekit.io/enc/v1/models/model_32.kw https://livekit.io/integrations/enc/v1 https://oaistatic.com https://pixel-config.reddit.com https://realtime.chatgpt-staging.com https://realtime.chatgpt.com https://snc.apps.openai.com https://transceiver.api.openai.com https://transceiver.api.openai.org https://www.googleapis.com https://www.redditstatic.com statsigapi.net wss://*.chatgpt.com wss://*.chatgpt.com/ wss://*.webpubsub.azure.com; frame-src 'self' challenges.cloudflare.com https://*.js.stripe.com https://*.sharepoint.com https://content.googleapis.com https://docs.google.com https://hooks.stripe.com https://js.stripe.com https://onedrive.live.com https://web-sandbox.oaiusercontent.com js.stripe.com player.vimeo.com www.youtube.com; worker-src 'self' blob:; media-src 'self' *.oaiusercontent.com blob: https://cdn.openai.com https://persistent.oaistatic.com; frame-ancestors 'self' chrome-extension://iaiigpefkbhgjcmcmffmfkpmhemdhdnj; base-uri 'none'; report-to chatgpt-csp-new; report-uri https://browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub1f79f8ac903a5872ae5f53026d20a77c&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=version%3Achatgpt-csp-new",
+                    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                    "cross-origin-opener-policy": "same-origin-allow-popups"
+                }
+            },
+            "session_info": {
+                "id": null,
+                "expires_at": null,
+                "remaining": null
+            }
+        }
+    ],
+    "job": {
+        "parse": true,
+        "prompt": "best supplements for better sleep",
+        "search": true,
+        "source": "chatgpt",
+        "callback_url": "https://realtime.oxylabs.io:443/api/done",
+        "geo_location": "United States",
+        "id": "7352996936896485377",
+        "status": "done",
+        "created_at": "2025-07-21 09:44:41",
+        "updated_at": "2025-07-21 09:45:17",
+        "_links": [
+            {
+                "rel": "self",
+                "href": "http://data.oxylabs.io/v1/queries/7352996936896485377",
+                "method": "GET"
+            },
+            {
+                "rel": "results",
+                "href": "http://data.oxylabs.io/v1/queries/7352996936896485377/results",
+                "method": "GET"
+            },
+            {
+                "rel": "results-content",
+                "href_list": [
+                    "http://data.oxylabs.io/v1/queries/7352996936896485377/results/1/content"
+                ],
+                "method": "GET"
+            },
+            {
+                "rel": "results-html",
+                "href": "http://data.oxylabs.io/v1/queries/7352996936896485377/results?type=raw",
+                "method": "GET"
+            },
+            {
+                "rel": "results-content-html",
+                "href_list": [
+                    "http://data.oxylabs.io/v1/queries/7352996936896485377/results/1/content?type=raw"
+                ],
+                "method": "GET"
+            },
+            {
+                "rel": "results-parsed",
+                "href": "http://data.oxylabs.io/v1/queries/7352996936896485377/results?type=parsed",
+                "method": "GET"
+            },
+            {
+                "rel": "results-content-parsed",
+                "href_list": [
+                    "http://data.oxylabs.io/v1/queries/7352996936896485377/results/1/content?type=parsed"
+                ],
+                "method": "GET"
+            }
+        ]
+    }
+}
