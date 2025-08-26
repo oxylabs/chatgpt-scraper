@@ -51,7 +51,7 @@ Find code examples for other programming languages [**here**](https://github.com
 | `parse`              | Return parsed structured data.                     | `true`          |
 | `callback_url`       | URL for asynchronous callbacks.                    | –             |
 
----
+
 ### Output samples
 
 **HTML example:**
