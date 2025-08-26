@@ -23,7 +23,7 @@ payload = {
     'prompt': 'best supplements for better sleep',
     'parse': True,
     'search': True,
-    'geo_location': "United States"
+    'geo_location': 'United States'
 }
 
 # Get response
@@ -119,11 +119,11 @@ This is the detailed list of each ChatGPT element API parses, including descript
 
 ## Practical Use Cases
 
-This API enables a wide range of applications for developers and data-focused teams.
+This ChatGPT scraper API opens a wide range of opportunities for developers and data-focused teams.
 
 1. **Building AI training datasets:** Collect diverse, real-world conversational data at scale for training or fine-tuning Large Language Models (LLMs).  
 2. **SEO & competitor analysis:** Monitor how competitors' brands and keywords are represented in AI-generated search results.  
-3. **Brand presence management:** Track brand mentions and content rankings to optimize your visibility strategies.  
+3. **Brand presence management:** Track your brand mentions and content rankings to optimize your visibility strategies.  
 
 
 ## Why Choose Oxylabs?
@@ -136,7 +136,7 @@ This API enables a wide range of applications for developers and data-focused te
 ## FAQ
 
 ### Is scraping ChatGPT legal?  
-The legality of scraping ChatGPT depends on the way it is done and the applicable jurisdiction. While Oxylabs provides the infrastructure to collect publicly available or user-submitted data from ChatGPT, it is the responsibility of the user to ensure compliance with OpenAI’s Terms of Service and local regulations.  
+The legality of using ChatGPT scrapers depends on the way it is done and the applicable jurisdiction. While Oxylabs provides the infrastructure to collect publicly available or user-submitted data from ChatGPT, it is the responsibility of the user to ensure compliance with OpenAI’s Terms of Service and local regulations.  
 
 ### What’s the ChatGPT prompt size limit?  
 The maximum prompt length supported by the ChatGPT Scraper is 4,000 symbols. If your use case requires handling longer inputs, consider splitting the text into smaller chunks and sending multiple sequential requests.  
