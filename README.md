@@ -36,7 +36,7 @@ response = requests.request(
 # Print prettified response
 pprint(response.json())
 ```
-Find code examples for other programming languages [**here**](https://github.com/oxylabs/chatgpt-scraper/tree/main/code%20examples)
+Find code examples for other programming languages [**here**](https://github.com/oxylabs/chatgpt-scraper/tree/main/Code%20examples)
 
 
 ### Request parameters
