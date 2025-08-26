@@ -85,7 +85,7 @@ This is a structured JSON snippet of the response output:
     ]
 }
 ```
-You can find the full example file in this repository.
+You can find the [full example file](output-chatgpt-scraper.json) in this repository.
 
 **Note:** The composition of elements may vary depending on whether the query was made from a desktop or mobile device.
 
