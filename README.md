@@ -4,12 +4,12 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
-The [ChatGPT Scraper](https://oxylabs.io/products/scraper-api/serp/chatgpt) by Oxylabs allows you to send prompts to ChatGPT and automatically collect both conversational responses and structured metadata. You can use the [Web Scraper API](https://oxylabs.io/products/scraper-api) with ChatGPT for SEO monitoring, AI response analysis, and brand presence tracking. It provides parsed, ready-to-use JSON output without the need to manage proxies, browsers, or avoid anti-bot systems.
+The [ChatGPT Scraper](https://oxylabs.io/products/scraper-api/serp/chatgpt) by Oxylabs allows you to send prompts to ChatGPT and automatically collect both conversational responses and structured metadata. You can use the [Web Scraper API](https://oxylabs.io/products/scraper-api) with ChatGPT for SEO monitoring, AI response analysis, and brand presence tracking. It provides parsed, ready-to-use JSON output without the need to manage proxies and browsers, or avoid anti-bot systems.
 
 
 ## How it works
 
-You can gather ChatGPT response results by simply providing a prompt and valid Web Scraper API credentials. Once authenticated, you can make a simple POST request to the API as shown below.
+You can gather ChatGPT scraper response results by simply providing a prompt and valid Web Scraper API credentials. Once authenticated, you can make a simple POST request to the API as shown below.
 
 ### Request sample (Python)
 
@@ -36,14 +36,14 @@ response = requests.request(
 # Print prettified response
 pprint(response.json())
 ```
-Find code examples for other programming languages [**here**](https://github.com/oxylabs/chatgpt-scraper/tree/main/Code%20examples)
+You can find code examples for other programming languages [**here**](https://github.com/oxylabs/chatgpt-scraper/tree/main/Code%20examples).
 
 
 ### Request parameters
 
 | Parameter          | Description                                        | Default Value |
 |--------------------|----------------------------------------------------|---------------|
-| `source` (mandatory) | Sets the scraper.                                  | `chatgpt`       |
+| `source` (mandatory) | Sets the ChatGPT scraper.                                  | `chatgpt`       |
 | `prompt` (mandatory) | The input prompt to submit (max 4000 characters).  | –             |
 | `search`             | Trigger ChatGPT web search for the prompt.         | `true`          |
 | `geo_location`       | Specify a country to send the prompt from.         | –             |
@@ -85,14 +85,14 @@ This is a structured JSON snippet of the response output:
     ]
 }
 ```
-You can find the [full example file](output-chatgpt-scraper.json) in this repository.
+You can find the full [output example file](output-chatgpt-scraper.json) in this repository.
 
 **Note:** The composition of elements may vary depending on whether the query was made from a desktop or mobile device.
 
 
 ### JSON output structure
 
-This is the detailed list of each ChatGPT element API parses, including descriptions, data types, and relevant metadata.  
+This is the detailed list of each element taht Chat GPT Web Scraper API parses, including descriptions, data types, and relevant metadata.  
 
 **Note:** The number of items and fields for a specific result type may vary depending on the submitted prompt.
 
