@@ -117,7 +117,7 @@ This is the detailed list of each element taht Chat GPT Web Scraper API parses, 
 | `parser_type`               | Type of the parser used for breaking down the HTML content.   | string    |
 
 
-## Practical Use Cases
+## Practical use cases
 
 This ChatGPT scraper API opens a wide range of opportunities for developers and data-focused teams.
 
@@ -126,7 +126,7 @@ This ChatGPT scraper API opens a wide range of opportunities for developers and 
 3. **Brand presence management:** Track your brand mentions and content rankings to optimize your visibility strategies.  
 
 
-## Why Choose Oxylabs?
+## Why choose Oxylabs?
 
 - **Maintenance-free:** Our API handles all the infrastructure, from proxy management to IP rotation and anti-bot systems. This means you don't need to spend engineering time on maintenance or adapting to website changes.  
 - **High success rates:** Built on our industry-leading infrastructure, the API ensures a high degree of reliability and a consistent data flow for all your scraping tasks.  
