@@ -94,7 +94,7 @@ Alternatively, you can extract the data in the Markdown format for easier data i
 
 ### JSON output structure
 
-This is the detailed list of each element taht Chat GPT Web Scraper API parses, including descriptions, data types, and relevant metadata.  
+This is the detailed list of each element that ChatGPT Web Scraper API parses, including descriptions, data types, and relevant metadata.  
 
 **Note:** The number of items and fields for a specific result type may vary depending on the submitted prompt.
 
