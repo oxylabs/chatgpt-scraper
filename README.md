@@ -132,7 +132,7 @@ This ChatGPT scraper API opens a wide range of opportunities for developers and 
 
 - **Maintenance-free:** Our API handles all the infrastructure, from proxy management to IP rotation and anti-bot systems. This means you don't need to spend engineering time on maintenance or adapting to website changes.  
 - **High success rates:** Built on our industry-leading infrastructure, the API ensures a high degree of reliability and a consistent data flow for all your scraping tasks.  
-- **Advanced features:** The API utilizes a headless browser to mimic real user behavior, automatically bypasses CAPTCHAs, and offers geo-targeting to retrieve localized responses.  
+- **Advanced features:** The API utilizes Custom Browser Instructions for a headless browser to mimic real user behavior, automatically bypasses CAPTCHAs, and offers geo-targeting to retrieve localized responses.  
 
 
 ## FAQ
