@@ -151,4 +151,4 @@ For a deeper dive into available parameters, advanced integrations, and addition
 
 ## Contact us
 
-If you have questions or need support, reach out to us at **hello@oxylabs.io** or through our [live chat](https://oxylabs.drift.click/oxybot).
+If you have questions or need support, reach out to us at support@oxylabs.io, or through live chat, accessible via [Oxylabs Dashboard](https://dashboard.oxylabs.io/en/), or join our [Discord community](https://discord.gg/Pds3gBmKMH). For enterprise-related inquiries, contact your dedicated account manager.
