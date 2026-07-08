@@ -98,25 +98,21 @@ This is the detailed list of each element that ChatGPT Web Scraper API parses, i
 
 **Note:** The number of items and fields for a specific result type may vary depending on the submitted prompt.
 
-| Key Name                 | Description                                                   | Type      |
-|---------------------------|---------------------------------------------------------------|-----------|
-| `url`                       | The URL of ChatGPT conversation.                              | string    |
-| `page`                      | Page number.                                                 | integer   |
-| `content`                   | An object containing the parsed ChatGPT response data.        | object    |
-| `content.prompt`            | Original prompt submitted to ChatGPT.                         | string    |
-| `content.llm_model`         | ChatGPT model used (e.g., "gpt-4-o", "gpt-3.5-turbo", etc.).  | string    |
-| `content.markdown_json`     | Parsed response in JSON markdown format.                      | array     |
-| `content.markdown_text`     | Parsed response in plain markdown text.                       | string    |
-| `content.response_text`     | Complete response text from ChatGPT.                          | string    |
-| `content.citations`         | List of citation links with URL and text.                     | array     |
-| `content.links`             | List of external links referenced in the response.            | array     |
-| `content.parse_status_code` | Status code of the parsing operation.                         | integer   |
-| `created_at`                | Timestamp when the scraping job was created.                  | timestamp |
-| `updated_at`                | Timestamp when the scraping job was finished.                 | timestamp |
-| `job_id`                    | ID of the job associated with the scraping job.               | string    |
-| `geo_location`              | Proxy location from which the prompt was submitted.           | string    |
-| `status_code`               | Status code of the scraping job. See the full [status code list](https://developers.oxylabs.io/scraping-solutions/web-scraper-api/response-codes). | integer   |
-| `parser_type`               | Type of the parser used for breaking down the HTML content.   | string    |
+| Key Name                | Description                                                                          | Type            |
+|-------------------------|---------------------------------------------------------------------------------------|-----------------|
+| `prompt`                | Submitted prompt to generate result.                                                  | string          |
+| `llm_model`              | Specific ChatGPT model used for the response (e.g., `gpt-4o`).                        | string          |
+| `response_text`          | Plain-text response from ChatGPT.                                                      | string          |
+| `markdown_text`          | ChatGPT response as Markdown.                                                          | string          |
+| `markdown_json`          | Structured JSON representation of the Markdown response. Each item contains `type` and `children`. | array           |
+| `citations`              | List of response source citations. Objects contain `title`, `url`, `text`, `description`, and `section`. | array           |
+| `search_queries`         | Search queries used by the model to gather information.                               | array of strings|
+| `links`                  | List of objects for inline source link details: `url` and `text`.                     | array           |
+| `shopping_products`      | List of objects containing product details: `price`, `title`, `rating`, `currency`, `price_str`, and `thumbnail`. | array           |
+| `ads`                    | Ad details containing `url`, `title`, `image_url`, `description`, and an `advertiser_info` object. | array           |
+| `ads.advertiser_info`    | Object with advertiser `url`, `name`, and `image_url`.                                 | object          |
+| `parse_status_code`      | `12000` – successful. Otherwise, parser failed to extract some or all structured fields. | integer         |
+    citations, search_queries, links, shopping_products, ads, ads.advertiser_info – conditional, returned only when content is in the LLM's response.
 
 
 ## Practical use cases
