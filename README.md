@@ -43,13 +43,12 @@ You can find code examples for other programming languages [**here**](https://gi
 
 | Parameter          | Description                                        | Default Value |
 |--------------------|----------------------------------------------------|---------------|
-| `source` (mandatory) | Sets the ChatGPT scraper.                                  | `chatgpt`       |
-| `prompt` (mandatory) | The input prompt to submit (max 4000 characters).  | –             |
-| `search`             | Trigger ChatGPT web search for the prompt.         | `true`          |
-| `geo_location`       | Specify a country to send the prompt from.         | –             |
-| `render`             | JavaScript rendering is enforced by default for `chatgpt`. | –     |
-| `parse`              | Return parsed structured data.                     | `true`          |
-| `callback_url`       | URL for asynchronous callbacks.                    | –             |
+| `source` (mandatory) | Sets the scraper target. Use `chatgpt`.            | –             |
+| `prompt` (mandatory) | Promp to ChatGPT (max 4000 characters). | – |
+| `search`             | Set to true for web search.                        | `false`       |
+| `geo_location`       | Specify a country to route the request from.       | –             |
+| `parse`              | Set to `true` for structured JSON results.            | `false`       |
+| `callback_url`       | URL to your callback endpoint.                     | –             |
 
 
 ### Output samples
@@ -62,27 +61,60 @@ This is a structured JSON snippet of the response output:
 
 ```json
 {
-    "results": [
-        {
-            "content": {
-                "prompt": "best supplements for better sleep",
-                "llm_model": "gpt-4o",
-                "markdown_json": ["json here"],
-                "markdown_text": "Improving sleep through supplements...",
-                "response_text": "Improving sleep through supplements...",
-                "parse_status_code": 12000
-            },
-            "created_at": "2025-07-21 09:44:41",
-            "updated_at": "2025-07-21 09:45:17",
-            "page": 1,
-            "url": "https://chatgpt.com/?hints=search",
-            "job_id": "7352996936896485377",
-            "is_render_forced": false,
-            "status_code": 200,
-            "parser_type": "chatgpt",
-            "parser_preset": null
-        }
-    ]
+  "results": [
+    {
+      "job_id": "7470033199733683201",
+      "status_code": 200,
+      "url": "https://chatgpt.com/?model=auto",
+      "content": {
+        "prompt": "best supplements for better sleep",
+        "llm_model": "gpt-5-5",
+        "response_text": "If you're looking for supplements with the best evidence for improving sleep, I'd rank them roughly like this: 1. Magnesium glycinate Best all-around starting point for many people ...",
+        "markdown_text": "If you're looking for supplements with the best evidence for improving sleep, I'd rank them roughly like this:\n\n### 1. Magnesium glycinate\n\n**Best all-around starting point for many people**\n\n* ...",
+        "markdown_json": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "raw": "If you're looking for supplements with the best evidence for improving sleep, I'd rank them roughly like this:"
+              }
+            ]
+          },
+          {
+            "type": "blank_line"
+          },
+          ...
+        ],
+        "citations": [
+          {
+            "title": "Best Sleep Supplements: Evidence-Based Gui | Holistic Health",
+            "url": "https://holistic.health/journal/best-sleep-supplements-beyond-melatonin?utm_source=chatgpt.com",
+            "text": "Holistic Health",
+            "description": "May 26, 2026"
+          },
+          {
+            "title": "Natural Sleep Aids: Which Are the Most Effective?",
+            "url": "https://www.sleepfoundation.org/sleep-aids/natural-sleep-aids?utm_source=chatgpt.com",
+            "text": "sleepfoundation.org",
+            "description": "July 14, 2025 — NATURAL SLEEP AIDS: WHICH ARE THE MOST EFFECTIVE?  Updated July 15, 2025  Written by Lucy Bryan ...",
+            "section": "more"
+          },
+          {
+            "title": "Do Magnesium Sleep Drinks Really Work? What the Science Says",
+            "url": "https://www.health.com/magnesium-drink-before-bed-11920427?utm_source=chatgpt.com",
+            "text": "Health",
+            "description": "Magnesium sleep drinks are beverages containing powdered magnesium and often calming ingredients like herbs or amino acids..."
+          },
+          ...
+        ],
+        "search_queries": [
+          "best supplements for sleep evidence melatonin magnesium valerian 2025"
+        ],
+        "parse_status_code": 12000
+      }
+    }
+  ]
 }
 ```
 You can find the full [output example file](output-chatgpt-scraper.json) in this repository.
@@ -94,25 +126,29 @@ Alternatively, you can extract the data in the Markdown format for easier data i
 
 ### JSON output structure
 
-This is the detailed list of each element that ChatGPT Web Scraper API parses, including descriptions, data types, and relevant metadata.  
+All LLM targets return the same top-level job and results[] envelope. See the [documentation](https://developers.oxylabs.io/api-targets/llms-and-ai) for the full metadata reference.
+
+The following table show ChatGPT-specific `results[].content` fields:
 
 **Note:** The number of items and fields for a specific result type may vary depending on the submitted prompt.
 
-| Key Name                | Description                                                                          | Type            |
-|-------------------------|---------------------------------------------------------------------------------------|-----------------|
-| `prompt`                | Submitted prompt to generate result.                                                  | string          |
-| `llm_model`              | Specific ChatGPT model used for the response (e.g., `gpt-4o`).                        | string          |
-| `response_text`          | Plain-text response from ChatGPT.                                                      | string          |
-| `markdown_text`          | ChatGPT response as Markdown.                                                          | string          |
-| `markdown_json`          | Structured JSON representation of the Markdown response. Each item contains `type` and `children`. | array           |
-| `citations`              | List of response source citations. Objects contain `title`, `url`, `text`, `description`, and `section`. | array           |
-| `search_queries`         | Search queries used by the model to gather information.                               | array of strings|
-| `links`                  | List of objects for inline source link details: `url` and `text`.                     | array           |
-| `shopping_products`      | List of objects containing product details: `price`, `title`, `rating`, `currency`, `price_str`, and `thumbnail`. | array           |
-| `ads`                    | Ad details containing `url`, `title`, `image_url`, `description`, and an `advertiser_info` object. | array           |
-| `ads.advertiser_info`    | Object with advertiser `url`, `name`, and `image_url`.                                 | object          |
-| `parse_status_code`      | `12000` – successful. Otherwise, parser failed to extract some or all structured fields. | integer         |
-    citations, search_queries, links, shopping_products, ads, ads.advertiser_info – conditional, returned only when content is in the LLM's response.
+| Key Name | Description | Type |
+|---|---|---|
+| `prompt` | Submitted prompt to generate result. | string |
+| `llm_model` | Specific ChatGPT model used for the response (e.g., `gpt-4o`). | string |
+| `response_text` | Plain-text response from ChatGPT. | string |
+| `markdown_text` | ChatGPT response as Markdown. | string |
+| `markdown_json` | Structured JSON representation of the Markdown response. Each item contains `type` and `children`. | array |
+| * `citations` | List of response source citations. Objects contain `title`, `url`, `text`, `description`, and `section`. | array |
+| * `search_queries` | Search queries used by the model to gather information. | array of strings |
+| * `links` | List of objects for inline source link details: `url` and `text`. | array |
+| * `shopping_products` | List of objects containing product details: `price`, `title`, `rating`, `currency`, `price_str`, and `thumbnail`. | array |
+| * `ads` | Ad details containing `url`, `title`, `image_url`, `description`, and an `advertiser_info` object. | array |
+| * `ads.advertiser_info` | Object with advertiser `url`, `name`, and `image_url`. | object |
+| `parse_status_code` | `12000` – successful. Otherwise, parser failed to extract some or all structured fields. | integer |
+
+\* — conditional, returned only when content is in the LLM's response.
+
 
 
 ## Practical use cases
@@ -126,9 +162,9 @@ This ChatGPT scraper API opens a wide range of opportunities for developers and 
 
 ## Why choose Oxylabs?
 
-- **Maintenance-free:** Our API handles all the infrastructure, from proxy management to IP rotation and anti-bot systems. This means you don't need to spend engineering time on maintenance or adapting to website changes.  
+- **Maintenance-free:** Our API handles all the infrastructure, from proxy management to IP rotation and bot traffic management systems. This means you don't need to spend engineering time on maintenance or adapting to website changes.  
 - **High success rates:** Built on our industry-leading infrastructure, the API ensures a high degree of reliability and a consistent data flow for all your scraping tasks.  
-- **Advanced features:** The API utilizes Custom Browser Instructions for a headless browser to mimic real user behavior, automatically bypasses CAPTCHAs, and offers geo-targeting to retrieve localized responses.  
+- **Advanced features:** The API utilizes Custom Browser Instructions for a headless browser to mimic real user behavior, automatically handles CAPTCHAs, and offers geo-targeting to retrieve localized responses.  
 
 
 ## FAQ
@@ -142,7 +178,7 @@ The maximum prompt length supported by the ChatGPT Scraper is 4,000 symbols. If 
 
 ## Learn more
 
-For a deeper dive into available parameters, advanced integrations, and additional examples, check out the [ChatGPT Scraper documentation](https://developers.oxylabs.io/scraping-solutions/web-scraper-api/targets/chatgpt).
+For a deeper dive into available parameters, advanced integrations, and additional examples, check out the [ChatGPT Scraper documentation](https://developers.oxylabs.io/api-targets/llms-and-ai/chatgpt).
 
 
 ## Contact us
