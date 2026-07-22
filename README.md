@@ -11,6 +11,9 @@ The [ChatGPT Scraper](https://oxylabs.io/products/scraper-api/serp/chatgpt) by O
 
 You can gather ChatGPT scraper response results by simply providing a prompt and valid Web Scraper API credentials. Once authenticated, you can make a simple POST request to the API as shown below.
 
+> [!TIP]
+> Get a free trial of Oxylabs **Web Scraper API** by registering on the [Dashboard](https://dashboard.oxylabs.io/en/registration).
+
 ### Request sample (Python)
 
 ```python
