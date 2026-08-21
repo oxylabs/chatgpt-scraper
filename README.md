@@ -152,7 +152,7 @@ The following table show ChatGPT-specific `results[].content` fields:
 
 \* — conditional, returned only when content is in the LLM's response.
 
-
+[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-scraper/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?&utm_content=web_api_waitinglist&groupid=877)
 
 ## Practical use cases
 
