@@ -2,6 +2,6 @@
         "source": "chatgpt",
         "prompt": "best supplements for better sleep",
         "parse": true,
-        "search": true,
-        "geo_location": "United States"
+        "geo_location": "United States",
+        "callback_url": "https://your-server.com/oxylabs-callback"
 }
