@@ -6,12 +6,12 @@ const body = {
     source: "chatgpt",
     prompt: "best supplements for better sleep",
     parse: true,
-    search: true,
-    geo_location: "United States"
+    geo_location: "United States",
+    callback_url: "https://your-server.com/oxylabs-callback"
 };
 
 const options = {
-    hostname: "realtime.oxylabs.io",
+    hostname: "data.oxylabs.io",
     path: "/v1/queries",
     method: "POST",
     headers: {
