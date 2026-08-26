@@ -18,13 +18,13 @@ namespace OxyApi
                 source = "chatgpt",
                 prompt = "best supplements for better sleep",
                 parse = true,
-                search = true,
-                geo_location = "United States"
+                geo_location = "United States",
+                callback_url = "https://your-server.com/oxylabs-callback"
             };
 
             var client = new HttpClient();
 
-            Uri baseUri = new Uri("https://realtime.oxylabs.io");
+            Uri baseUri = new Uri("https://data.oxylabs.io");
             client.BaseAddress = baseUri;
 
             var requestMessage = new HttpRequestMessage(HttpMethod.Post, "/v1/queries");
