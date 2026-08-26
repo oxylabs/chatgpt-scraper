@@ -1,21 +1,19 @@
 import requests
 from pprint import pprint
 
-
 # Structure payload.
 payload = {
     'source': 'chatgpt',
     'prompt': 'best supplements for better sleep',
     'parse': True,
-    'search': True,
-    'geo_location': "United States"
+    'geo_location': "United States",
+    'callback_url': "https://your-server.com/oxylabs-callback"
 }
-
 
 # Get response.
 response = requests.request(
     'POST',
-    'https://realtime.oxylabs.io/v1/queries',
+    'https://data.oxylabs.io/v1/queries',
     auth=('USERNAME', 'PASSWORD'),
     json=payload,
 )
