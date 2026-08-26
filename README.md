@@ -4,7 +4,7 @@
 
 [![](https://dcbadge.limes.pink/api/server/Pds3gBmKMH?style=for-the-badge&theme=discord)](https://discord.gg/Pds3gBmKMH) [![YouTube](https://img.shields.io/badge/YouTube-Oxylabs-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@oxylabs)
 
-The [ChatGPT Scraper](https://oxylabs.io/products/scraper-api/serp/chatgpt) by Oxylabs allows you to send prompts to ChatGPT and automatically collect both conversational responses and structured metadata. You can use the [Web Scraper API](https://oxylabs.io/products/scraper-api) with ChatGPT for SEO monitoring, AI response analysis, and brand presence tracking. It provides parsed, ready-to-use JSON output without the need to manage proxies and browsers, or avoid anti-bot systems.
+The [ChatGPT Scraper](https://oxylabs.io/products/scraper-api/serp/chatgpt) by Oxylabs allows you to send prompts to ChatGPT and automatically collect both conversational responses and structured metadata. You can use the [Web Scraper API](https://oxylabs.io/products/scraper-api) with ChatGPT for SEO monitoring, AI response analysis, and brand presence tracking. It provides parsed, ready-to-use JSON output without the need to manage proxies and browsers, or avoid server-side defense systems.
 
 
 ## How it works
@@ -20,23 +20,24 @@ You can gather ChatGPT scraper response results by simply providing a prompt and
 import requests
 from pprint import pprint
 
-# Structure payload
+# Structure payload.
 payload = {
     'source': 'chatgpt',
     'prompt': 'best supplements for better sleep',
     'parse': True,
-    'search': True,
-    'geo_location': 'United States'
+    'geo_location': "United States",
+    'callback_url': "https://your-server.com/oxylabs-callback"
 }
 
-# Get response
+# Get response.
 response = requests.request(
     'POST',
-    'https://realtime.oxylabs.io/v1/queries',
+    'https://data.oxylabs.io/v1/queries',
     auth=('USERNAME', 'PASSWORD'),
     json=payload,
 )
-# Print prettified response
+
+# Print prettified response to stdout.
 pprint(response.json())
 ```
 You can find code examples for other programming languages [**here**](https://github.com/oxylabs/chatgpt-scraper/tree/main/Code%20examples).
@@ -52,6 +53,7 @@ You can find code examples for other programming languages [**here**](https://gi
 | `geo_location`       | Specify a country to route the request from.       | –             |
 | `parse`              | Set to `true` for structured JSON results.            | `false`       |
 | `callback_url`       | URL to your callback endpoint.                     | –             |
+| `browser_instructions`       | Optional custom browser instructions when rendering JavaScript. [More info](https://developers.oxylabs.io/products/web-scraper-api/features/js-rendering-and-browser-control#browser-instructions). | –             |
 
 
 ### Output samples
@@ -167,7 +169,7 @@ This ChatGPT scraper API opens a wide range of opportunities for developers and 
 
 - **Maintenance-free:** Our API handles all the infrastructure, from proxy management to IP rotation and bot traffic management systems. This means you don't need to spend engineering time on maintenance or adapting to website changes.  
 - **High success rates:** Built on our industry-leading infrastructure, the API ensures a high degree of reliability and a consistent data flow for all your scraping tasks.  
-- **Advanced features:** The API utilizes Custom Browser Instructions for a headless browser to mimic real user behavior, automatically handles CAPTCHAs, and offers geo-targeting to retrieve localized responses.  
+- **Advanced features:** The API utilizes Custom Browser Instructions for a headless browser to emulate real user behavior, automatically handles CAPTCHAs, and offers geo-targeting to retrieve localized responses.  
 
 
 ## FAQ
