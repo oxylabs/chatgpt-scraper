@@ -140,19 +140,20 @@ The following table show ChatGPT-specific `results[].content` fields:
 | Key Name | Description | Type |
 |---|---|---|
 | `prompt` | Submitted prompt to generate result. | string |
-| `llm_model` | Specific ChatGPT model used for the response (e.g., `gpt-4o`). | string |
 | `response_text` | Plain-text response from ChatGPT. | string |
 | `markdown_text` | ChatGPT response as Markdown. | string |
 | `markdown_json` | Structured JSON representation of the Markdown response. Each item contains `type` and `children`. | array |
 | * `citations` | List of response source citations. Objects contain `title`, `url`, `text`, `description`, and `section`. | array |
-| * `search_queries` | Search queries used by the model to gather information. | array of strings |
 | * `links` | List of objects for inline source link details: `url` and `text`. | array |
-| * `shopping_products` | List of objects containing product details: `price`, `title`, `rating`, `currency`, `price_str`, and `thumbnail`. | array |
+| * `shopping_products` | List of products ChatGPT recommends, as shown on the product cards in the answer. Objects contain `title`, `url` (link to the product page), `price`, `price_str`, `currency`, `merchant` (the store selling the product), `badge` (ChatGPT's label for the product, e.g. "Best overall"), `description` (ChatGPT's description of the product), `thumbnail`, `image_page_title` and `image_page_url` (title and URL of the web page the card image comes from, which may be a different store than `merchant`), `rating` (the product's star rating from the store listing), `citations`, and `offers`. Fields that ChatGPT does not show for a product are not returned. | array |
+| * `shopping_products.offers` | Merchant offers for the product. ChatGPT usually lists one store per product. Objects contain `merchant`, `price`, `price_str`, `currency`, `url`, and `details` (availability and delivery details, as displayed). | array |
+| * `shopping_products.citations` | Sources ChatGPT cites for the product. Objects contain `source` (the website or publication name), `title`, and `url`. | array |
 | * `ads` | Ad details containing `url`, `title`, `image_url`, `description`, and an `advertiser_info` object. | array |
-| * `ads.advertiser_info` | Object with advertiser `url`, `name`, and `image_url`. | object |
+| * `ads.advertiser_info` | Object with advertiser `url`, `name`, and `image_data`. | object |
+| `raw_response` | Raw streamed response from ChatGPT, one line per item. | array of strings |
 | `parse_status_code` | `12000` – successful. Otherwise, parser failed to extract some or all structured fields. | integer |
 
-\* — conditional, returned only when content is in the LLM's response.
+\* – conditional, returned only when content is in the LLM's response.
 
 [![Oxylabs promo code](https://github.com/oxylabs/chatgpt-scraper/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?utm_source=github&utm_medium=referral&utm_content=web_api_waitinglist&groupid=877)
 
