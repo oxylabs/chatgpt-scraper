@@ -1,6 +1,6 @@
 # ChatGPT Scraper
 
-[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-scraper/blob/main/6-ChatGPT-Scraper.png)](https://oxylabs.io/products/scraper-api/serp/chatgpt?utm_source=877&utm_medium=affiliate&utm_campaign=llm_scrapers&groupid=877&utm_content=chatgpt-scraper-github&transaction_id=102f49063ab94276ae8f116d224b67)
+[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-scraper/blob/main/6-ChatGPT-Scraper.png)](https://oxylabs.io/products/scraper-api/serp/chatgpt?utm_source=github&utm_medium=referral&utm_content=chatgpt-scraper&utm_campaign=banner&groupid=877)
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
@@ -9,7 +9,7 @@
   <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/%F0%9F%92%AC_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
   <a href="https://www.youtube.com/@oxylabs"><img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F_YouTube-FF0000?style=for-the-badge" alt="YouTube"></a>
 </p>
-The [ChatGPT Scraper](https://oxylabs.io/products/scraper-api/serp/chatgpt) by Oxylabs allows you to send prompts to ChatGPT and automatically collect both conversational responses and structured metadata. You can use the [Web Scraper API](https://oxylabs.io/products/scraper-api) with ChatGPT for SEO monitoring, AI response analysis, and brand presence tracking. It provides parsed, ready-to-use JSON output without the need to manage proxies and browsers, or avoid server-side defense systems.
+The [ChatGPT Scraper](https://oxylabs.io/products/scraper-api/serp/chatgpt?utm_source=github&utm_medium=referral&utm_content=chatgpt-scraper&groupid=877) by Oxylabs allows you to send prompts to ChatGPT and automatically collect both conversational responses and structured metadata. You can use the [Web Scraper API](https://oxylabs.io/products/scraper-api?utm_source=github&utm_medium=referral&utm_content=chatgpt-scraper&groupid=877) with ChatGPT for SEO monitoring, AI response analysis, and brand presence tracking. It provides parsed, ready-to-use JSON output without the need to manage proxies and browsers, or avoid server-side defense systems.
 
 
 ## How it works
@@ -160,7 +160,7 @@ The following table show ChatGPT-specific `results[].content` fields:
 
 \* – conditional, returned only when content is in the LLM's response.
 
-[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-scraper/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?utm_source=github&utm_medium=referral&utm_content=web_api_waitinglist&groupid=877)
+[![Oxylabs promo code](https://github.com/oxylabs/chatgpt-scraper/blob/main/Github%20repositories%20banner%20v1%402x.png)](https://oxylabs.io/web-api-early-access?utm_source=github&utm_medium=referral&utm_content=chatgpt-scraper&utm_campaign=banner&groupid=877)
 
 ## Practical use cases
 
